@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Línea del tiempo - This Is Us Fan Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="logo">
+        <h1>This Is Us</h1>
+        <p class="tagline">La historia de los Pearson</p>
+    </div>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="personajes.html">Personajes</a></li>
+            <li><a href="temporadas.html">Temporadas</a></li>
+            <li><a href="juego.html" class="active">Línea del tiempo</a></li>
+            <li><a href="contacto.html">Tu momento This Is Us</a></li>
+            <li><a href="hola.html">Mi historia</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="tools-bar">
+    <p class="tools-label">Ajustes de visualización:</p>
+    <button type="button" id="btn-toggle-theme" class="btn btn-small">Cambiar colores</button>
+    <button type="button" id="btn-font-plus" class="btn btn-small">A+</button>
+    <button type="button" id="btn-font-minus" class="btn btn-small">A-</button>
+</section>
+
+<main>
+    <section class="page-header">
+        <h2>Juego: Línea del tiempo de los Pearson</h2>
+        <p>
+            Hacé clic en cada punto de la línea del tiempo para descubrir los momentos
+            clave de la serie. Pasado, presente y futuro conectados en una sola historia.
+        </p>
+    </section>
+
+    <section class="timeline-container">
+        <div class="timeline-line">
+            <a href="#evento1" class="timeline-point">Nacimiento Big Three</a>
+            <a href="#evento2" class="timeline-point">Adopción de Randall</a>
+            <a href="#evento3" class="timeline-point">Incendio de la casa</a>
+            <a href="#evento4" class="timeline-point">Muerte de Jack</a>
+            <a href="#evento5" class="timeline-point">Boda de Kate</a>
+            <a href="#evento6" class="timeline-point">Futuro: hijos de Kevin</a>
+        </div>
+
+        <div class="timeline-events">
+            <article id="evento1" class="timeline-event">
+                <h3>Nacimiento de los Big Three</h3>
+                <p>
+                    En 1980, Jack y Rebecca esperan trillizos. Uno de los bebés muere al nacer,
+                    pero el destino los lleva a conocer a un bebé abandonado: Randall. Este día
+                    define para siempre a la familia Pearson.
+                </p>
+                <p class="impact">
+                    💛 Impacto emocional: Punto de partida de la serie y del vínculo entre los hermanos.
+                </p>
+            </article>
+
+            <article id="evento2" class="timeline-event">
+                <h3>Adopción de Randall</h3>
+                <p>
+                    Jack convence a Rebecca de adoptar al bebé que encontraron en el hospital.
+                    Así, Randall se convierte en parte de los Pearson, aunque su búsqueda de identidad
+                    lo acompañará toda la vida.
+                </p>
+                <p class="impact">
+                    💛 Impacto emocional: Explora la adopción, el racismo y la pertenencia.
+                </p>
+            </article>
+
+            <article id="evento3" class="timeline-event">
+                <h3>Incendio de la casa</h3>
+                <p>
+                    Un fallo en la instalación de la casa provoca un incendio devastador.
+                    La familia logra escapar, pero este evento marca el inicio del final para Jack.
+                </p>
+                <p class="impact">
+                    💛 Impacto emocional: Uno de los momentos más tensos y recordados de la serie.
+                </p>
+            </article>
+
+            <article id="evento4" class="timeline-event">
+                <h3>Muerte de Jack</h3>
+                <p>
+                    Tras el incendio, Jack muere en el hospital por complicaciones cardíacas.
+                    La familia queda destruida y este trauma se ve reflejado en la vida adulta
+                    de los "Big Three".
+                </p>
+                <p class="impact">
+                    💛 Impacto emocional: La muerte que define el tono de toda la serie.
+                </p>
+            </article>
+
+            <article id="evento5" class="timeline-event">
+                <h3>Boda de Kate</h3>
+                <p>
+                    Años después, Kate se casa con Toby. La boda mezcla alegría, recuerdos de Jack
+                    y nuevas oportunidades de felicidad para la familia Pearson.
+                </p>
+                <p class="impact">
+                    💛 Impacto emocional: Cierra una etapa del duelo de Kate y abre su propio camino.
+                </p>
+            </article>
+
+            <article id="evento6" class="timeline-event">
+                <h3>Escenas del futuro: los hijos de Kevin</h3>
+                <p>
+                    En el futuro, vemos a los hijos de Kevin visitando a Rebecca en sus últimos días.
+                    La historia muestra cómo el legado de los Pearson continúa más allá de una generación.
+                </p>
+                <p class="impact">
+                    💛 Impacto emocional: Cierre sobre el ciclo de la vida, el legado y la memoria.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section class="timeline-instructions">
+        <h3>¿Cómo jugar?</h3>
+        <ul>
+            <li>Elegí un punto de la línea del tiempo (pasado, presente o futuro).</li>
+            <li>Leé la tarjeta del evento y su impacto emocional en la familia.</li>
+            <li>Intentá ordenar mentalmente los hechos y ver cómo se conectan entre sí.</li>
+            <li>Después, podés ir a la sección de contacto y contar tu propio “momento This Is Us”.</li>
+        </ul>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>Fan Page de This Is Us · Proyecto académico · Desarrollado por [Tu Nombre]</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
